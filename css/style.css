@@ -1,0 +1,19 @@
+/* Created by: Andre Deveau
+* Created on: Sep 2022
+*This CSS file defines for index.html ICS20-Unit1-04-HTML-CSS
+*/
+
+body {
+  background-color: indigo
+}
+
+h1 {
+  background-color: rgb(255 127 80)
+  color: hsl(147deg 50% 47%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: lime
+}
