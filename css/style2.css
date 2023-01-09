@@ -1,27 +1,46 @@
 /* Created by: Andre Deveau
  * Created on: Sep 2022
- * This CSS file defines the style for index2.html ICS2O-Unit1-04-HTML-CSS
+ * This CSS file defines the style for index2.html ICS2O-Unit1-04-CSS
 */
 
 body {
-  background-color: green;
+  background-color: navy;
 }
 
 h1 {
-  background-color: rgb(255 0 221);
-  color: hsl(239deg 50% 47%);
+  background-color: rgb(124 140 223);
+  color: hsl(0deg 0% 0%);
   padding: 40px;
   text-align: center;
 }
 
 p {
-  background-color: #e5ff00;
+  background-color: #33d7d7;
+  font-size: 20px;
 }
 
 ul {
-  color: beige;
+  color: white;
 }
 
 ul li::before {
-  content: "✅";
+  content: "✔️";
+}
+
+table {
+  border: solid thin;
+}
+
+th {
+  height: 2rem;
+  background: white;
+  border: 1px solid black;
+  text-align: left;
+}
+
+td {
+  height: 2rem;
+  background: #17a1cf;
+  border: 1px solid black;
+  text-align: center;
 }
